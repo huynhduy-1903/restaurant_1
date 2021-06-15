@@ -1,0 +1,108 @@
+.foodlist{
+	width: 80%;
+	height: 550px;
+	background-color: #d9d9d9;
+	margin-top: -40px;
+	margin-left: -10px;
+	float: left;
+	overflow: auto;
+}
+.foodlist .find{
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	margin-left: 720px;
+	position: absolute;
+	margin-top: 20px;
+	width: 280px;
+}
+.foodlist .title{
+	background-color: #5e5b5b;
+	width: 330px;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	padding-left: 20px;
+	margin-left: 10px;
+}
+.foodlist .find-icon{
+	margin-left: 980px;
+	position: absolute;
+	margin-top: 22px;
+	padding:8px;
+	border: none;
+	background-color: white;
+	border-radius: 50%;
+}
+.orderrequest{
+	width: 20%;
+	height: auto;
+	background-color: #d9d9d9;
+	margin-top: -40px;
+	margin-left: 1065px;
+	position:fixed;
+	border-radius: 5px;
+}
+.orderrequest .bill{
+	overflow: auto;
+	max-height: 300px;
+	padding: 10px;
+}
+.orderrequest .bill .none{
+	text-align: center;
+}
+.orderrequest .check_out{
+	width: 100%;
+	padding: 20px;
+	background-color: white;
+	font-family: goldman;
+	font-size: 20px;
+	color: black;
+	border: none;
+	border-radius: 5px;
+}
+.orderrequest .check_out:hover{
+	background-color: #f2f2f2;
+}
+.products .items{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+.products .items .item{
+	border: 1px solid black;
+	box-shadow: 1px 2px 2px black;
+	padding: 10px;
+	border-radius: 5px;
+}
+.products .items .item:hover{
+	box-shadow: 1px 4px 4px black;
+}
+.products .items .item .item-anh img{
+	width: 300px;
+	height: 200px;
+}
+.products .items .item .item-name{
+	margin: 10px;
+	line-height: 30px;
+}
+.products .items .item .item-giasp{
+	margin: 10px 0;
+	margin-left: 10px;
+}
+.products .items .item .btn{
+	border: none;
+	padding: 10px 20px;
+	background-color: gray;
+	color: white;
+	border-radius: 5px;
+	margin: 10px;
+	font-family: goldman;
+}
+.products .items .item .btn:hover{
+	background-color: #a19c9c;
+	cursor: pointer;
+}

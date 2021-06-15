@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+	<title>Sunning's Retaurant</title>
+	<link rel="stylesheet" type="text/css" href="res.css">
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<link href='https://fonts.googleapis.com/css?family=Goldman' rel='stylesheet'>
+	<link rel="stylesheet" type="text/css" href="book.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript" src="validate.js"></script>
+</head>
+<body style="background-image: url(https://images.pexels.com/photos/5702790/pexels-photo-5702790.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);">
+	<div id="top">
+		<a href="trangchunhahang.html"><img src="https://thietkeweb9999.com/data/upload/blog/logo/top-140-mau-logo-nha-hang-dep-thu-hut-thuc-khach25.jpg" width="120px" height="80px" alt="Logo Sunning"></a>
+		<div id="menutop">
+			<a href="trangchunhahang.html" id="a">Trang chủ</a>
+			<a href="gioithieu.html" id="a">Giới thiệu</a>
+			<a href="menures.html" id="a">Thực đơn</a>
+			<a href="order.html" id="a"style="	box-shadow: inset 0px -5px 0px 0px black;font-size: 22px;">Đặt hàng</a>
+			<a href="booktable.html" id="a">Đặt bàn</a>
+			<div id="iconss">
+				<a href="#" id="icons"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" id="icons"><i class="fab fa-instagram"></i></a>
+				<a href="#" id="icons"><i class="fab fa-youtube"></i></a>
+			</div>		
+		</div>
+	</div>
+	<div class="main2">
+		<div class="bookbox">
+			<h1>Thông tin khách hàng</h1>
+			<div class="img_left">
+				<img src="https://images.unsplash.com/photo-1526367790999-0150786686a2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80" width="600px" height="350px;">
+				<p>Hotline:0328664370</p>
+				<p>Or Email:sunningrestaurant@gmail.com</p>
+			</div>
+			<div class="form_right">
+				<form name="myform">
+					<div class="table_1">
+						<table>
+							<tr>
+								<th><i style='font-size:24px' class='fas'>&#xf406;</i></th>
+								<td><input type="text" name="name" placeholder="Name" required id="name2"></td>
+							</tr>
+							<tr>
+								<th><i style='font-size:24px' class='fas'>&#xf2b6;</i></th>
+								<td><input type="email" name="email" placeholder="Email"required id="email2"></td>
+							</tr>
+							<tr>
+								<th><i style='font-size:24px' class='fas'>&#xf87b;</i></th>
+								<td><input type="text" name="phone" placeholder="Phone Number"required id="phonenumber2"></td>
+							</tr>
+						</table>
+					</div>
+					<div class="table_2">
+						<table>
+						<tr>
+							<th><i style='font-size:24px' class='fas'>&#xf1ad;</i></th>
+							<td><input type="text" name="city" placeholder="Thành phố"required id="city"></td>
+						</tr>
+						<tr>
+							<th><i style='font-size:24px' class='fas'>&#xf3c5;</i></th>
+							<td><input type="text" name="district" placeholder="Quân, huyện"required id="district"></td>
+						</tr>
+						<tr>
+							<th><i style='font-size:24px' class='fas'>&#xf018;</i></th>
+							<td><input type="text" name="street" placeholder="Đường,số nhà,..."required id="street"></td>
+						</tr>
+					</table>
+					</div>
+					<div class="table_3">
+						<table>
+						<tr>
+							<th><i class="fas" style="font-size: 20px;">&#xf53d;</i></th>
+							<td><select>
+									<option>Thanh toán bằng tiền mặt khi nhận hàng</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th><i style='font-size:24px' class='fas'>&#xf303;</i></th>
+							<td><textarea  style="background-color: #f2f2f2;" name="message" rows="5" cols="53" placeholder="Message"></textarea></td>
+						</tr>
+					</table>
+					<input type="button" name="submit" value="Đặt Hàng" onclick="validate2()"> 
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>

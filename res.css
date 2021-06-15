@@ -1,0 +1,123 @@
+body{
+	margin: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: goldman;
+}
+#top{
+	background-color: white;
+	position: fixed;
+	width: 100%;
+	height: auto;
+	top: 0;
+	opacity: 0.6;
+	transition: 1s;
+}
+#top a{
+	padding: 10px 20px;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	float: left;
+	font-size: 20px;
+	color: black;
+}
+.main{
+	margin-top:150px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#a:hover{
+	box-shadow: inset 0px -5px 0px 0px black;
+	font-size: 22px;
+}
+#menutop{
+	padding-left: 350px;
+	padding-top: 30px;
+}
+#icons{
+	padding:40px 10px;
+}
+#iconss{
+	float: right;
+	padding-right:50px;
+}
+#icons:hover{
+	opacity: 0.5;
+}
+.bot{
+	background-color: #b3b3b3;
+}
+.menu1{
+	width: 33%;
+	height: 150px;
+	background-color: #e6e6d2;
+	float: left;
+	padding-left:20px;
+	box-shadow: inset 0px 5px 0px 0px black;
+	text-align: center;
+}
+.menumid{
+	width: 33%;
+	height: 150px;
+	background-color: #e6e6d2;
+	float: left;
+	box-shadow: inset 0px 5px 0px 0px black;
+	text-align: center;
+}
+.menu2{
+	width: 32%;
+	height: 150px;
+	background-color: #e6e6d2;
+	float: left;
+	box-shadow: inset 0px 5px 0px 0px black;
+	text-align: center;
+}
+.thebody{
+	text-align: center;
+	color: white;
+}
+#nameres{
+	border: 2px solid white;
+	font-size:50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 700px;
+	margin-left: 280px;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+.booktime{
+	margin-top: 150px;
+	font-family: goldman;
+	font-size: 20px;
+}
+.booktime a{
+	color: white;
+}
+.booktime a:hover{
+	font-size: 21px;
+}
+#iconbottom {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: black;
+	text-align: center;
+	color: white;
+	display: inline-block;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px gray; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: gray; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: gray; 
+}

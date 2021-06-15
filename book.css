@@ -1,0 +1,81 @@
+.bookbox{
+	width: 80%;
+	height: 550px;
+	background-color:#d9d9d9;
+	position: absolute;
+	font-family: goldman;
+	margin-left: 130px;
+}
+.bookbox h1{
+	margin-left: 20px;
+}
+.main2{
+	padding-top: 106px;
+}
+.img_left img{
+	padding-left: 10px;
+	border-radius: 5px;
+}
+.img_left p{
+	margin-left: 20px;
+}
+.form_right{
+	margin-top: -450px;
+	margin-left: 630px;
+}
+.table_1{
+	float: left;
+}
+table,th,td{
+	border-collapse: collapse;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+input{
+	background-color: #f2f2f2;
+	padding: 10px;
+	border-radius: 3px;
+	border: 1px solid white;
+	width: 150px;
+	height: 20px;
+}
+input[type=button]{
+	background-color: black;
+	width: 150px;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	margin-left: 290px;
+	border-radius: 5px;
+	padding-bottom: 30px;
+	font-family: goldman;
+}
+input[type=button]:hover{
+	opacity: 0.85;
+	cursor: pointer;
+}
+select{
+	width: 395px;
+	height: 35px;
+	background-color: #f2f2f2;
+	border:none;
+	border-radius: 5px;
+}
+textarea{
+	background-color: #f2f2f2;
+}
+#hrstyle1{
+	width: 300px;
+	background-color: black;
+	position: absolute;
+	margin-left: 225px;
+	margin-top: -5px;
+}
+#hrstyle2{
+	width: 300px;
+	background-color: black;
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 565px;
+}
